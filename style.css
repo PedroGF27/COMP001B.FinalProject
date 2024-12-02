@@ -1,5 +1,12 @@
 body {
+    border-style: inset;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 header{ 
@@ -18,6 +25,24 @@ header h1::after {
     color: #ff6347; 
 }
 
+.preamble
+
+.explanation
+
+.participation
+
+.benefits
+
+.requirements
+
+.intro {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
 nav ul li a::before {
     content: "• ";
     color: #ff6347; 
@@ -26,4 +51,14 @@ nav ul li a::before {
 nav ul li a::after { 
     content: " •";
     color: #ff6347; 
+}
+
+footer {
+    padding: auto;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper {
+
 }
