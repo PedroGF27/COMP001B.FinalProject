@@ -1,0 +1,49 @@
+.preamble {
+    max-width: 50%;
+    float: left;
+    padding-bottom: 42px;
+    border-bottom-style: solid;
+}
+
+.explanation {
+    max-width: 50%;
+    float: right;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+}
+
+.participation {
+    max-width: 50%;
+    float: left;
+}
+
+.benefits {
+    max-width: 50%;
+    float: right;
+}
+
+.requirements {
+
+}
+
+
+
+
+h3 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 4em;
+    text-align: center;
+
+}
+
+
+h1::before {
+    content: "~";
+}
+
+h1::after {
+    content: "~";
+}
