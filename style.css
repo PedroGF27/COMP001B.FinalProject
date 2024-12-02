@@ -1,11 +1,17 @@
 body {
+    background-color: #f9ecd9f4;
     border-style: inset;
     padding-left: 10px;
     padding-top: 10px;
 }
 
+h1 {
+    font-size: 3em;
+}
 h3 {
     font-size: xx-large;
+    border-bottom-style: solid;
+    border-color: #f7e3cc;
 }
 
 h3::first-letter {
@@ -17,6 +23,8 @@ p {
     line-height: 1.6;
     margin-bottom: 15px;
     font-size: large;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 header{ 
@@ -63,6 +71,14 @@ header h1::after {
     text-align: center;
 }
 
+a {
+    color: red;
+}
+
+a:hover { 
+    background-color: black;
+}
+
 nav ul li a::before {
     content: "• ";
     color: #ff6347; 
@@ -74,11 +90,53 @@ nav ul li a::after {
 }
 
 footer {
-    padding: auto;
-    text-decoration: none;
-    display: inline-block;
+    font-size: larger;
+    padding-top: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer:hover {
+    color: black;
 }
 
 .wrapper {
 
+}
+
+.design-selection {
+    padding: auto;
+    font-size: larger;
+    float: left;
+    width: 33%;
+    
+}
+
+.design-archives {
+    padding: auto;
+    font-size: larger;
+    float: left;
+    width: 30%;
+    
+}
+
+.zen-resources {
+    padding: auto;
+    font-size: larger;
+    float: left;
+    width: 33%;
+  
+}
+
+.select {
+    text-align: center;
+}
+
+.archives {
+    text-align: center;
+}
+
+.resources {
+    text-align: center;
 }
