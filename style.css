@@ -4,9 +4,19 @@ body {
     padding-top: 10px;
 }
 
+h3 {
+    font-size: xx-large;
+}
+
+h3::first-letter {
+    color: #ff6347;
+    font-size: 1.5em;
+}
+
 p {
     line-height: 1.6;
     margin-bottom: 15px;
+    font-size: large;
 }
 
 header{ 
@@ -25,15 +35,25 @@ header h1::after {
     color: #ff6347; 
 }
 
-.preamble
+.preamble {
+    border-bottom-style: double;
+}
 
-.explanation
+.explanation {
+    border-bottom-style: double;
+}
 
-.participation
+.participation {
+    border-bottom-style: double;
+}
 
-.benefits
+.benefits {
+    border-bottom-style: double;
+}
 
-.requirements
+.requirements {
+    border-bottom-style: double;
+}
 
 .intro {
     text-align: center;
