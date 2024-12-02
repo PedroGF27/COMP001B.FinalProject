@@ -1,0 +1,29 @@
+body {
+
+}
+
+header{ 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header h1::first-letter { 
+    font-size: 1.5em; 
+    color: #ff6347; 
+} 
+
+header h1::after {
+    content: " - Welcome!"; 
+    font-size: 0.5em; 
+    color: #ff6347; 
+}
+
+nav ul li a::before {
+    content: "• ";
+    color: #ff6347; 
+} 
+
+nav ul li a::after { 
+    content: " •";
+    color: #ff6347; 
+}
