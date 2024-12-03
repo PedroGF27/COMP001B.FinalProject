@@ -1,104 +1,104 @@
 .preamble {
-    max-width: 50%;
-    float: left;
-    background-color: #3EB489;
-    padding-bottom: 46px;
-}
+    max-width: 50%; /* Take up 50% of the webpage */ 
+    float: left; /* Float it to left side of screen */
+    background-color: #3EB489; /* changes background color*/
+    padding-bottom: 46px; /*set the bottom of the padding area*/
+} 
 
 .explanation {
-    max-width: 50%;
-    float: right;
-    background-color: #fff157;
-    padding-bottom: 38px;
+    max-width: 50%; /* Take up 50% of the webpage */
+    float: right; /* Float it to right side of screen */
+    background-color: #fff157; /* changes background color*/
+    padding-bottom: 38px; /*set the bottom of the padding area*/
 }
 
 .preamble, .explanation {
-    border-bottom-style: solid;
-    border-top-style: solid;
+    border-bottom-style: solid; /*changes border style of the bottom*/
+    border-top-style: solid;  /*changes border style of the top*/
 }
 
 .participation {
-    max-width: 70%;
-    float: right;
+    max-width: 70%; /* Take up 70% of the webpage */
+    float: right; /* Float it to right side of screen */
 }
 
 .benefits {
-    max-width: 70%;
-    float: right;
+    max-width: 70%; /* Take up 70% of the webpage */
+    float: right; /* Float it to right side of screen */
 }
 
 .requirements {
-    float: right;
-    max-width: 70%;
+    float: right; /* Float it to right side of screen */
+    max-width: 70%; /* takes up 70% of the webpage*/
 }
 
 .summary {
-    text-align: center;
-    font-style: italic;
+    text-align: center; /*Aligns text to the center*/
+    font-style: italic; /* sets a font style*/
 }
 
 .intro{
-    background-color: #ececec;
-    border-bottom-style: solid;
+    background-color: #ececec; /* changes background color*/
+    border-bottom-style: solid; /*changes border style for the bottom*/
 }
 
 .participation, .benefits, .requirements {
-    border-left-style: double;
-    padding-left: 50px;
-    background-color: #f7cee2;
+    border-left-style: double;  /*changes border style for the left side*/
+    padding-left: 50px; /*set the left side of the padding area*/
+    background-color: #f7cee2; /* changes background color*/
 
 }
 
 p{
-    line-height: 1.3;
-    text-indent: 50px;
+    line-height: 1.3; /*spaces text vertically*/
+    text-indent: 50px; /*used to indent text*/
 }
 
 h3 {
-    text-align: center;
-    font-size: x-large;
+    text-align: center; /*Aligns text to the center*/
+    font-size: x-large; /* changes the font size*/
 }
 
 h1, h2 {
-    font-size: 4em;
-    text-align: center;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 100%;
+    font-size: 4em; /*changes font side*/
+    text-align: center; /*Aligns text to the center*/
+    padding: 20px; /*set the padding area*/
+    margin: 20px auto; /*sets the margin*/
+    border-radius: 8px; /*sets border radius*/
+    max-width: 100%; /* Take up 100% of the webpage */
 }
 
 
 h1::before {
-    content: "~";
+    content: "~"; /*adds text before the content of the element*/
 }
 
 h1::after {
-    content: "~";
+    content: "~"; /*adds text after the content of the element*/
 }
 
 aside {
-    line-height: 2;
-    max-width: 25%;
+    line-height: 2; /*changes line height*/
+    max-width: 25%; /* Take up 25% of the webpage */
 }
 
 .sidebar {
-    background-color: #cfdfef;
-    margin-left: 14px;
-    padding-bottom: 110px;
+    background-color: #cfdfef; /* changes background color*/
+    margin-left: 14px; /*sets the margin for the left side*/
+    padding-bottom: 110px; /*set the bottom of the padding area*/
     
 }
 
 footer {
     font-size: x-large;
-    text-align: center;  
-    float: left;
-    width: 100%; 
-    bottom: 0;
-    border-top-style: dotted;
-    padding: 25px;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    background-color: #f7e3cc;
+    text-align: center; /*Aligns text to the center*/ 
+    float: left; /* Float it to left side of screen */
+    width: 100%;  /*takes up 100% of webpage*/
+    bottom: 0; /*moves to bottom of webpage*/
+    border-top-style: dotted; /*changes border style for the top*/
+    padding: 25px; /*set the padding area*/
+    display: flex; /*makes a flex box*/
+    width: 100%; /* Take up 100% of the webpage */
+    justify-content: space-around; /*evenly spaces links*/
+    background-color: #f7e3cc; /* changes background color*/
 }
