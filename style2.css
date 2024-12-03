@@ -9,9 +9,7 @@
     max-width: 50%;
     float: right;
     background-color: #fff157;
-    padding-bottom: 20px;
-    margin-top: 18px;
-
+    padding-bottom: 38px;
 }
 
 .preamble, .explanation {
@@ -86,6 +84,7 @@ aside {
 .sidebar {
     background-color: #cfdfef;
     margin-left: 14px;
+    padding-bottom: 110px;
     
 }
 
